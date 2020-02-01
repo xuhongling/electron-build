@@ -1,0 +1,37 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "productName": "diagnosisSystem",
+    "appId": "com.diagnosisSystem.app",
+    "files": [
+      "build/**/*",
+      "./main.js"
+    ],
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [],
+  "author": "XuHongling",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.11",
+    "electron-builder": "^22.3.2"
+  }
+}
