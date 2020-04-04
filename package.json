@@ -16,7 +16,9 @@
       "./main.js"
     ],
     "win": {
-      "target": ["nsis"]
+      "target": [
+        "nsis"
+      ]
     },
     "nsis": {
       "allowToChangeInstallationDirectory": true,
@@ -31,7 +33,7 @@
   "author": "XuHongling",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^7.1.11",
+    "electron": "^7.2.1",
     "electron-builder": "^22.3.2"
   }
 }
