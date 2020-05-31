@@ -9,7 +9,7 @@
     "dist": "electron-builder"
   },
   "build": {
-    "productName": "diagnosisSystem",
+    "productName": "车辆诊断解析",
     "appId": "com.diagnosisSystem.app",
     "files": [
       "build/**/*",
