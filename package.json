@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "diagnosisSystem-app",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -16,6 +16,7 @@
       "./main.js"
     ],
     "win": {
+      "icon": "./public/favicon_256.ico",
       "target": [
         "nsis"
       ]
@@ -25,10 +26,16 @@
       "oneClick": false,
       "perMachine": false,
       "createDesktopShortcut": true,
-      "createStartMenuShortcut": true
+      "createStartMenuShortcut": true,
+      "installerIcon": "./public/favicon.ico",
+      "uninstallerIcon": "./public/favicon.ico",
+      "installerHeaderIcon": "./public/favicon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "车辆诊断解析"
     }
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/xuhongling/electron-build",
   "keywords": [],
   "author": "XuHongling",
   "license": "ISC",
