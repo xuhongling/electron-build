@@ -1,7 +1,7 @@
 {
   "name": "diagnosisSystem",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "version": "1.3.0",
+  "description": "三环集团车辆诊断解析软件",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
